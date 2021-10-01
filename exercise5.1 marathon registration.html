@@ -8,7 +8,7 @@
   
   <body>
     <h1>Race Registration</h1>
-    <form>
+    <form action="here">
     <label for="first_name">First Name</label>
     <input type="name" id="first_name">
     
@@ -17,17 +17,18 @@
     
     
     <p>Select a Race</p>
-    <input type="radio" id="500m" name="one">
+    
+    <input type="radio" id="500m" value="500m" name="one">
     <label for="500m">500m</label>
     <br>
   
-  <input type="radio" id="funrace" name="one">
+  <input type="radio" id="funrace" value="funrace" name="one">
     <label for="funrace">
       Fun Race
     </label>
   <br>
   
-  <input type="radio" id="5 k.m" name="one">
+  <input type="radio" id="5 k.m" value="5 k.m" name="one">
     <label for="5 k.m">5 k.m</label>
      
      <br>
@@ -43,17 +44,16 @@
     <select id="groups" name="age">
     
     <option value="">-- select option --</option>
-    <option value=""> Below 18 </option>
-    <option value="">19 to 25</option>
-    <option value="">26 to 35</option>
-    <option value="">36 to 45</option>
-    <option value="">46 and above</option>
+    <option value="below 18"> Below 18 </option>
+    <option value="19 to 25">19 to 25</option>
+    <option value="26 to 35">26 to 35</option>
+        <option value="36 to 45">36 to 45</option>
+    <option value="46 and above">46 and above</option>
     
     </select>
     <br>
     <br>
     
-    <p align="center"><input type="submit" value=Register ></p>
   </form>
   
   
