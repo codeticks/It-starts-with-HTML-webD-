@@ -8,6 +8,7 @@
   
   <body>
     <h1>Race Registration</h1>
+    <form>
     <label for="first_name">First Name</label>
     <input type="name" id="first_name">
     
@@ -38,17 +39,22 @@
     <input type="password" id="pswd" name=pswd>
     <br>
     <br>
-    <label for="groups">Select Groups</label>
+    <label for="groups">Select Groups:</label>
     <select id="groups" name="age">
     
-    <option value=" below18"> Below 18 </option>
+    <option value="">-- select option --</option>
+    <option value=""> Below 18 </option>
     <option value="">19 to 25</option>
     <option value="">26 to 35</option>
     <option value="">36 to 45</option>
     <option value="">46 and above</option>
     
-       </select>
-  
+    </select>
+    <br>
+    <br>
+    
+    <p align="center"><input type="submit" value=Register ></p>
+  </form>
   
   
   </body>
