@@ -1,0 +1,10 @@
+h1
+  {
+    font-family:monospace;
+    text-transform: uppercase; /* we can use the capitalize input to make the first letter of the word capital */
+    text-align:center;
+    font-weight:100;
+    font-size:40px;
+    letter-spacing:20px;
+    text-decoration:underline wavy #673147; /* need to know more clearly about this tag */
+  }
