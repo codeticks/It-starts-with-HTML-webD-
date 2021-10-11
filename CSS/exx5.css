@@ -1,0 +1,15 @@
+div:nth-child(odd)
+                {
+                  background: red;
+                }
+                
+                
+div:nth-child(even) 
+            {
+              background: black;
+                } 
+                
+                /* 
+                when i put 2n or 2n+1 in the bracket it doesn't work */
+                /* 
+                so now after googling i thik what i have found is the fault is in the way this code is written since its made for workig with odd or even not 2n and 2n+1 */
