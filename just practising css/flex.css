@@ -1,0 +1,25 @@
+.divs {
+  background-color: #003049;
+  border:5px solid #003049;
+  height: 400px;
+  width:500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+ justify-content:flex-end;
+ flex-wrap: wrap;
+ align-items:flex-center;
+ align-content: space-between;
+ 
+  
+  
+
+}
+
+
+.divs div {
+      height:100px;
+      width:200px;
+      text-align: center;
+      
+}
