@@ -1,0 +1,4 @@
+So you may be wondering what the heck is this, so let me explain, what happens is as i progress more and more, i have gathered so many tips & tricks that i can't even remember all of them so i have made this file to Log some of them or should i say to remember those ones that i have a hard time remembering and they are important in time saving.
+
+1. USING MOUSE WHEEL TO ZOOM IN AND OUT: so how to use the mouse wheel to Zoom in and Out in your editor area only to max or minimize the font size. > Open command pallet using (ctrl+,) ,
+    
